@@ -1,0 +1,78 @@
+# ======================
+# Python
+# ======================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual environment
+venv/
+env/
+.venv/
+
+
+# ======================
+# VS Code
+# ======================
+
+.vscode/
+.gitignore
+
+# ======================
+# Jupyter
+# ======================
+
+.ipynb_checkpoints/
+
+
+# ======================
+# Data
+# ======================
+
+datasets/
+*.npz
+*.db
+*.h5
+*.mat
+*.png
+*.db
+*.bak
+*.dat
+*.dir
+
+
+# ======================
+# Model checkpoints
+# ======================
+
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+
+# ======================
+# Results
+# ======================
+
+results/
+runs/
+logs/
+tensorboard/
+
+
+# ======================
+# Temporary files
+# ======================
+
+*.log
+*.tmp
+
+
+# ======================
+# OS
+# ======================
+
+.DS_Store
+Thumbs.db
